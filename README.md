@@ -5,7 +5,7 @@
 ## Turtle Logo - Lesson #4, with variables and sprites @unplugged
 **Making the Turtle's Pen Change Color.**
 
-In this lesson you will change the color of the trail the **Turtle** leaves.
+In this lesson you will change the color of the trails the **Turtle Objects** leave behind.
 ![](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson4-advanced/raw/main/assets/color_screenshot.png)
 
 ## Step 1
