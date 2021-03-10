@@ -263,6 +263,8 @@ Create 2 variables, with proper names and assign them to be **Turtle Objects**. 
 ## Step 8
 **Done**
 
+You have successfully completed your fifth lesson in Turtle Logo.
+
 ```ghost
 let myTurtle = turtle.fromSprite(sprites.create(img``, SpriteKind.Player))
 myTurtle.moveDirection(TurtleDirection.Forward, 25)
