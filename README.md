@@ -264,5 +264,9 @@ Create 2 variables, with proper names and assign them to be **Turtle Objects**. 
 **Done**
 
 ```ghost
+let myTurtle = turtle.fromSprite(sprites.create(img``, SpriteKind.Player))
+myTurtle.moveDirection(TurtleDirection.Forward, 25)
+myTurtle.turnDirectionByDegrees(TurtleTurnDirection.Right, 90)
+myDuck.setPenColor(1)
 myTurtle.say("Hello, World!")
 ```
