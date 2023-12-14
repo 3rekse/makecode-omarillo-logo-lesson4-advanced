@@ -1,19 +1,19 @@
 ### @explicitHints true
 
-# Turtle Logo - Lesson #4 - Advanced
+# Omarillo Logo - Lesson #4 - Advanced
 
-## Turtle Logo - Lesson #4, with variables and sprites @unplugged
-**Making the Turtle's Pen Change Color.**
+## Omarillo Logo - Lesson #4, with variables and sprites @unplugged
+**Making the Omarillo's Pen Change Color.**
 
-In this lesson you will change the color of the trails the **Turtle Objects** leave behind.
+In this lesson you will change the color of the trails the **Omarillo Objects** leave behind.
 ![](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson4-advanced/raw/main/assets/color_screenshot.png)
 
 ## Step 1
 ** Follow Along**
 
-Once again, all our programs begin with an ⇢``on start``⇠ block. You will again be needing 2 variables called myDuck and myApple and then you need to assign the 2 **Turtle Objects** using the ⇢``set myTurtle to a Turtle Object with sprite □ of kind Player``⇠ block.
+Once again, all our programs begin with an ⇢``on start``⇠ block. You will again be needing 2 variables called myDuck and myApple and then you need to assign the 2 **Omarillo Objects** using the ⇢``set myOmarillo to a Omarillo Object with sprite □ of kind Player``⇠ block.
 ```blocks
-let myDuck = turtle.fromSprite(sprites.create(img`
+let myDuck = omarillo.fromSprite(sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
     . . . . . . b b b b b b . . . . 
@@ -31,7 +31,7 @@ let myDuck = turtle.fromSprite(sprites.create(img`
     . . . c c c c c c c c b b . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player))
-let myApple = turtle.fromSprite(sprites.create(img`
+let myApple = omarillo.fromSprite(sprites.create(img`
     . . . . . . . e c 7 . . . . . . 
     . . . . e e e c 7 7 e e . . . . 
     . . c e e e e c 7 e 2 2 e e . . 
@@ -54,9 +54,9 @@ let myApple = turtle.fromSprite(sprites.create(img`
 ## Step 2
 ** Follow Along**
 
-The **Turtle Objects** by default leaves a white trail behind them. This color can be changed by using the ⇢myTurtle set pen color to ▢⇠ block.
+The **Omarillo Objects** by default leaves a white trail behind them. This color can be changed by using the ⇢myOmarillo set pen color to ▢⇠ block.
 ```blocks
-let myDuck = turtle.fromSprite(sprites.create(img`
+let myDuck = omarillo.fromSprite(sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
     . . . . . . b b b b b b . . . . 
@@ -74,7 +74,7 @@ let myDuck = turtle.fromSprite(sprites.create(img`
     . . . c c c c c c c c b b . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player))
-let myApple = turtle.fromSprite(sprites.create(img`
+let myApple = omarillo.fromSprite(sprites.create(img`
     . . . . . . . e c 7 . . . . . . 
     . . . . e e e c 7 7 e e . . . . 
     . . c e e e e c 7 e 2 2 e e . . 
@@ -99,9 +99,9 @@ myApple.setPenColor(1)
 ## Step 3
 ** Follow Along**
 
-Inside the ⇢myTurtle set pen color to ▢⇠ block, select the "▢" and change the duck to red and the apple to blue. Now move the duck forwards and the apple backwards.
+Inside the ⇢myOmarillo set pen color to ▢⇠ block, select the "▢" and change the duck to red and the apple to blue. Now move the duck forwards and the apple backwards.
 ```blocks
-let myDuck = turtle.fromSprite(sprites.create(img`
+let myDuck = omarillo.fromSprite(sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
     . . . . . . b b b b b b . . . . 
@@ -119,7 +119,7 @@ let myDuck = turtle.fromSprite(sprites.create(img`
     . . . c c c c c c c c b b . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player))
-let myApple = turtle.fromSprite(sprites.create(img`
+let myApple = omarillo.fromSprite(sprites.create(img`
     . . . . . . . e c 7 . . . . . . 
     . . . . e e e c 7 7 e e . . . . 
     . . c e e e e c 7 e 2 2 e e . . 
@@ -139,16 +139,16 @@ let myApple = turtle.fromSprite(sprites.create(img`
     `, SpriteKind.Player))
 myDuck.setPenColor(2)
 myApple.setPenColor(8)
-myDuck.moveDirection(TurtleDirection.Forward, 25)
-myApple.moveDirection(TurtleDirection.Backward, 25)
+myDuck.moveDirection(OmarilloDirection.Forward, 25)
+myApple.moveDirection(OmarilloDirection.Backward, 25)
 ```
 
 ## Step 4
 ** Follow Along**
 
-You can even change the color more than once. After moving forwards, add 2 more ⇢myTurtle set pen color to ▢⇠ blocks and change the colors to green and yellow. Then move the **Turtle Objects** again.
+You can even change the color more than once. After moving forwards, add 2 more ⇢myOmarillo set pen color to ▢⇠ blocks and change the colors to green and yellow. Then move the **Omarillo Objects** again.
 ```blocks
-let myDuck = turtle.fromSprite(sprites.create(img`
+let myDuck = omarillo.fromSprite(sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
     . . . . . . b b b b b b . . . . 
@@ -166,7 +166,7 @@ let myDuck = turtle.fromSprite(sprites.create(img`
     . . . c c c c c c c c b b . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player))
-let myApple = turtle.fromSprite(sprites.create(img`
+let myApple = omarillo.fromSprite(sprites.create(img`
     . . . . . . . e c 7 . . . . . . 
     . . . . e e e c 7 7 e e . . . . 
     . . c e e e e c 7 e 2 2 e e . . 
@@ -186,8 +186,8 @@ let myApple = turtle.fromSprite(sprites.create(img`
     `, SpriteKind.Player))
 myDuck.setPenColor(2)
 myApple.setPenColor(8)
-myDuck.moveDirection(TurtleDirection.Forward, 25)
-myApple.moveDirection(TurtleDirection.Backward, 25)
+myDuck.moveDirection(OmarilloDirection.Forward, 25)
+myApple.moveDirection(OmarilloDirection.Backward, 25)
 myDuck.setPenColor(7)
 myApple.setPenColor(5)
 ```
@@ -195,9 +195,9 @@ myApple.setPenColor(5)
 ## Step 5
 ** Try it Out**
 
-Now try moving the **Turtle Objects** some different distances, different directions, turning and changing color.
+Now try moving the **Omarillo Objects** some different distances, different directions, turning and changing color.
 ```blocks
-let myDuck = turtle.fromSprite(sprites.create(img`
+let myDuck = omarillo.fromSprite(sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
     . . . . . . b b b b b b . . . . 
@@ -215,7 +215,7 @@ let myDuck = turtle.fromSprite(sprites.create(img`
     . . . c c c c c c c c b b . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player))
-let myApple = turtle.fromSprite(sprites.create(img`
+let myApple = omarillo.fromSprite(sprites.create(img`
     . . . . . . . e c 7 . . . . . . 
     . . . . e e e c 7 7 e e . . . . 
     . . c e e e e c 7 e 2 2 e e . . 
@@ -234,26 +234,26 @@ let myApple = turtle.fromSprite(sprites.create(img`
     . . . . . 2 2 e e e e . . . . . 
     `, SpriteKind.Player))
 myDuck.setPenColor(2)
-myDuck.moveDirection(TurtleDirection.Forward, 15)
-myDuck.turnDirectionByDegrees(TurtleTurnDirection.Right, 90)
+myDuck.moveDirection(OmarilloDirection.Forward, 15)
+myDuck.turnDirectionByDegrees(OmarilloTurnDirection.Right, 90)
 myApple.setPenColor(8)
-myApple.moveDirection(TurtleDirection.Backward, 30)
-myApple.turnDirectionByDegrees(TurtleTurnDirection.Left, 90)
+myApple.moveDirection(OmarilloDirection.Backward, 30)
+myApple.turnDirectionByDegrees(OmarilloTurnDirection.Left, 90)
 myDuck.setPenColor(5)
-myDuck.moveDirection(TurtleDirection.Forward, 20)
+myDuck.moveDirection(OmarilloDirection.Forward, 20)
 myApple.setPenColor(7)
-myApple.moveDirection(TurtleDirection.Forward, 50)
+myApple.moveDirection(OmarilloDirection.Forward, 50)
 ```
 
 ## Step 6
 **Success!**
 
-You can now change the trail color the **Turtle** leaves.
+You can now change the trail color the **Omarillo** leaves.
 
 ## Step 7
 **Your Turn**
 
-Create 2 variables, with proper names and assign them to be **Turtle Objects**. Then get each **Turtle Object** to:
+Create 2 variables, with proper names and assign them to be **Omarillo Objects**. Then get each **Omarillo Object** to:
 - move
 - change its trail color
 - turn
@@ -263,12 +263,12 @@ Create 2 variables, with proper names and assign them to be **Turtle Objects**. 
 ## Step 8
 **Done**
 
-You have successfully completed your forth lesson in Turtle Logo.
+You have successfully completed your forth lesson in Omarillo Logo.
 
 ```ghost
-let myTurtle = turtle.fromSprite(sprites.create(img``, SpriteKind.Player))
-myTurtle.moveDirection(TurtleDirection.Forward, 25)
-myTurtle.turnDirectionByDegrees(TurtleTurnDirection.Right, 90)
+let myOmarillo = omarillo.fromSprite(sprites.create(img``, SpriteKind.Player))
+myOmarillo.moveDirection(OmarilloDirection.Forward, 25)
+myOmarillo.turnDirectionByDegrees(OmarilloTurnDirection.Right, 90)
 myDuck.setPenColor(1)
-myTurtle.say("Hello, World!")
+myOmarillo.say("Hello, World!")
 ```
